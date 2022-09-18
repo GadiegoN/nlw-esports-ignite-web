@@ -48,9 +48,8 @@ export function App() {
 
         {games.map(game => {
           return (
-            <div className="keen-slider__slide">
+            <div key={game.id} className="keen-slider__slide">
               <GameBanner
-                key={game.id}
                 bannerUrl={game.bannerUrl}
                 title={game.title}
                 adsCount={game._count.ads}
