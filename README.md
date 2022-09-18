@@ -10,7 +10,7 @@ Projeto construido no evento Next Level Week da Rocketseat.
 - ReactJS
 - TypeScript
 - HTML
-- CSS
+- CSS (tailwind)
 - Git e Github
 
 ## Curso
